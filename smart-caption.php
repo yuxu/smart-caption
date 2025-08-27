@@ -1,18 +1,11 @@
-</**
+<?php
+/**
  * Plugin Name: Smart Caption
  * Plugin URI: https://github.com/yuxu/smart-caption
  * Description: A WordPress plugin that provides a custom block for figure and figcaption elements in Gutenberg editor with advanced block management and multilingual support.
  * Version: 1.0.0
  * Author: Yuxu
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: smart-caption
- * Domain Path: /languages
- */ Plugin Name: Smart Caption
- * Plugin URI: https://example.com/smart-caption
- * Description: A WordPress plugin that provides a custom block for figure and figcaption elements in Gutenberg editor with advanced block management and multilingual support.
- * Version: 1.0.0
- * Author: Your Name
+ * Author URI: https://github.com/yuxu
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: smart-caption

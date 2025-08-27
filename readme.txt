@@ -96,7 +96,23 @@ Initial release - no upgrade needed.
 
 == Credits ==
 
-Developed with WordPress coding standards and accessibility guidelines in mind.
+**Developed by:** Yuxu
+**GitHub:** https://github.com/yuxu/smart-caption
+**Website:** https://github.com/yuxu
+
+This plugin was created to provide a better semantic solution for figure elements in WordPress Gutenberg editor.
+
+**Special Thanks:**
+- WordPress Core Team for the Gutenberg editor
+- WordPress Community for coding standards and best practices
+
+**Libraries/Tools Used:**
+- WordPress Core APIs
+- Gutenberg Block Editor
+- PHP 7.0+
+- JavaScript ES6
+
+Developed with WordPress coding standards and accessibility guidelines (WCAG 2.1) in mind.
 
 == Translation ==
 
