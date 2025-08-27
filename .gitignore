@@ -1,0 +1,34 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/debug.log
+
+# Development files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+仕様書.md
+*.bak
+*.old
+
+# Node.js (if used)
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Composer (if used)
+vendor/
+composer.lock
