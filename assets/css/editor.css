@@ -1,0 +1,19 @@
+/* Editor styles for Smart Caption block */
+
+.wp-block-smart-caption-universal-figure {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.wp-block-smart-caption-universal-figure figcaption {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.wp-block-smart-caption-universal-figure .figure-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f9f9f9;
+}
