@@ -1,0 +1,180 @@
+# English translations for Smart Caption
+# Copyright (C) 2024 Smart Caption
+# This file is distributed under the same license as the Smart Caption package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Caption 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2024-08-27 12:00+0000\n"
+"PO-Revision-Date: 2024-08-27 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: English <en@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.8.1\n"
+
+#: includes/class-smart-caption.php:123
+msgid "Block Whitelist Settings"
+msgstr "Block Whitelist Settings"
+
+#: includes/class-smart-caption.php:130
+msgid "Allowed Blocks"
+msgstr "Allowed Blocks"
+
+#: includes/class-smart-caption.php:197
+msgid "Select which blocks are allowed inside the Universal Figure block."
+msgstr "Select which blocks are allowed inside the Universal Figure block."
+
+#: includes/class-smart-caption.php:212
+msgid "Currently Allowed Blocks"
+msgstr "Currently Allowed Blocks"
+
+#: includes/class-smart-caption.php:229
+msgid "No blocks selected"
+msgstr "No blocks selected"
+
+#: includes/class-smart-caption.php:235
+msgid "Available Blocks"
+msgstr "Available Blocks"
+
+#: includes/class-smart-caption.php:237
+msgid "Search blocks..."
+msgstr "Search blocks..."
+
+#: includes/class-smart-caption.php:274
+msgid "Excluded Blocks - Figure/Semantic Elements"
+msgstr "Excluded Blocks - Figure/Semantic Elements"
+
+#: includes/class-smart-caption.php:275
+msgid "These blocks already use figure or similar semantic elements and cannot be used inside Universal Figure to avoid nested structures."
+msgstr "These blocks already use figure or similar semantic elements and cannot be used inside Universal Figure to avoid nested structures."
+
+#: includes/class-smart-caption.php:300
+msgid "WordPress standard figure/figcaption support"
+msgstr "WordPress standard figure/figcaption support"
+
+#: includes/class-smart-caption.php:308
+msgid "Excluded Blocks - Semantically Inappropriate"
+msgstr "Excluded Blocks - Semantically Inappropriate"
+
+#: includes/class-smart-caption.php:309
+msgid "These blocks are semantically inappropriate for figure wrapping and may cause accessibility issues or invalid HTML structure."
+msgstr "These blocks are semantically inappropriate for figure wrapping and may cause accessibility issues or invalid HTML structure."
+
+#: includes/class-smart-caption.php:317
+msgid "Must be inside a list container (ul/ol)"
+msgstr "Must be inside a list container (ul/ol)"
+
+#: includes/class-smart-caption.php:320
+msgid "Semantically inappropriate for figure"
+msgstr "Semantically inappropriate for figure"
+
+#: includes/class-smart-caption.php:447
+msgid "Smart Caption Settings"
+msgstr "Smart Caption Settings"
+
+#: includes/class-smart-caption.php:452
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: includes/class-smart-caption.php:161
+msgid "Image"
+msgstr "Image"
+
+#: includes/class-smart-caption.php:162
+msgid "Gallery"
+msgstr "Gallery"
+
+#: includes/class-smart-caption.php:163
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/class-smart-caption.php:164
+msgid "Video"
+msgstr "Video"
+
+#: includes/class-smart-caption.php:165
+msgid "Embed"
+msgstr "Embed"
+
+#: includes/class-smart-caption.php:169
+msgid "Table"
+msgstr "Table"
+
+#: includes/class-smart-caption.php:177
+msgid "Paragraph"
+msgstr "Paragraph"
+
+#: includes/class-smart-caption.php:178
+msgid "Heading"
+msgstr "Heading"
+
+#: includes/class-smart-caption.php:179
+msgid "List Item"
+msgstr "List Item"
+
+#: includes/class-smart-caption.php:180
+msgid "Group"
+msgstr "Group"
+
+#: includes/class-smart-caption.php:181
+msgid "Columns"
+msgstr "Columns"
+
+#: includes/class-smart-caption.php:182
+msgid "Buttons"
+msgstr "Buttons"
+
+#: includes/class-smart-caption.php:183
+msgid "Spacer"
+msgstr "Spacer"
+
+#: includes/class-smart-caption.php:184
+msgid "Separator"
+msgstr "Separator"
+
+#: includes/class-smart-caption.php:185
+msgid "Custom HTML"
+msgstr "Custom HTML"
+
+#: includes/class-smart-caption.php:210
+msgid "Block whitelist settings saved successfully."
+msgstr "Block whitelist settings saved successfully."
+
+#: includes/class-smart-caption.php:275
+msgid "Note: Table blocks have their own caption option"
+msgstr "Note: Table blocks have their own caption option"
+
+#: includes/class-smart-caption.php:263
+msgid "The figure element is used to group self-contained content such as photos, diagrams, code blocks, etc., that can be referenced independently from the main text. You can add blocks to the whitelist that you deem appropriate for this definition based on your own judgment."
+msgstr "The figure element is used to group self-contained content such as photos, diagrams, code blocks, etc., that can be referenced independently from the main text. You can add blocks to the whitelist that you deem appropriate for this definition based on your own judgment."
+
+#: includes/class-smart-caption.php:264
+msgid "I created this plugin because I felt that figcaption is more appropriate than heading blocks for ul/ol and dl elements (added by other plugins)."
+msgstr "I created this plugin because there were cases where I wanted to use figcaption instead of heading blocks for ul/ol and dl elements (added by other plugins)."
+
+#: assets/js/editor.js:12
+msgid "Universal Figure"
+msgstr "Universal Figure"
+
+#: assets/js/editor.js:35
+msgid "Figure Settings"
+msgstr "Figure Settings"
+
+#: assets/js/editor.js:37
+msgid "Caption"
+msgstr "Caption"
+
+#: assets/js/editor.js:42
+msgid "Above Content"
+msgstr "Above Content"
+
+#: assets/js/editor.js:45
+msgid "Below Content"
+msgstr "Below Content"
+
+#: assets/js/editor.js:46
+msgid "Caption Position"
+msgstr "Caption Position"

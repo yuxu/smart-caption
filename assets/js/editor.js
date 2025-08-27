@@ -9,7 +9,7 @@
     const { __ } = wp.i18n;
 
     registerBlockType('smart-caption/universal-figure', {
-        title: __('Universal Figure', 'smart-caption'),
+        title: smartCaptionTranslations ? smartCaptionTranslations.universalFigure : __('Universal Figure', 'smart-caption'),
         icon: 'format-image',
         category: 'common',
         attributes: {
@@ -26,6 +26,11 @@
             const blockProps = useBlockProps();
             const { caption, position } = attributes;
 
+            // Get allowed blocks from PHP
+            const allowedBlocks = smartCaptionData && smartCaptionData.allowedBlocks && smartCaptionData.allowedBlocks.length > 0 
+                ? smartCaptionData.allowedBlocks 
+                : ['core/list', 'core/quote', 'core/table', 'core/code'];
+
             return wp.element.createElement(
                 wp.element.Fragment,
                 null,
@@ -34,20 +39,20 @@
                     null,
                     wp.element.createElement(
                         PanelBody,
-                        { title: __('Figure Settings', 'smart-caption') },
+                        { title: smartCaptionTranslations ? smartCaptionTranslations.figureSettings : __('Figure Settings', 'smart-caption') },
                         wp.element.createElement(TextControl, {
-                            label: __('Caption', 'smart-caption'),
+                            label: smartCaptionTranslations ? smartCaptionTranslations.caption : __('Caption', 'smart-caption'),
                             value: caption,
                             onChange: function(value) {
                                 setAttributes({ caption: value });
                             }
                         }),
                         wp.element.createElement(RadioControl, {
-                            label: __('Caption Position', 'smart-caption'),
+                            label: smartCaptionTranslations ? smartCaptionTranslations.captionPosition : __('Caption Position', 'smart-caption'),
                             selected: position,
                             options: [
-                                { label: __('Above Content', 'smart-caption'), value: 'above' },
-                                { label: __('Below Content', 'smart-caption'), value: 'below' },
+                                { label: smartCaptionTranslations ? smartCaptionTranslations.aboveContent : __('Above Content', 'smart-caption'), value: 'above' },
+                                { label: smartCaptionTranslations ? smartCaptionTranslations.belowContent : __('Below Content', 'smart-caption'), value: 'below' },
                             ],
                             onChange: function(value) {
                                 setAttributes({ position: value });
@@ -62,7 +67,10 @@
                     wp.element.createElement(
                         'div',
                         { className: 'figure-content' },
-                        wp.element.createElement(InnerBlocks, null)
+                        wp.element.createElement(InnerBlocks, {
+                            allowedBlocks: allowedBlocks,
+                            renderAppender: InnerBlocks.ButtonBlockAppender
+                        })
                     ),
                     position === 'below' && caption && wp.element.createElement('figcaption', null, caption)
                 )

@@ -1,0 +1,182 @@
+# Copyright (C) 2024 Smart Caption
+# This file is distributed under the same license as the Smart Caption package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Caption 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2024-08-27 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: WP-CLI 2.8.1\n"
+
+#: includes/class-smart-caption.php:123
+msgid "Block Whitelist Settings"
+msgstr ""
+
+#: includes/class-smart-caption.php:130
+msgid "Allowed Blocks"
+msgstr ""
+
+#: includes/class-smart-caption.php:197
+msgid "Select which blocks are allowed inside the Universal Figure block."
+msgstr ""
+
+#: includes/class-smart-caption.php:212
+msgid "Currently Allowed Blocks"
+msgstr ""
+
+#: includes/class-smart-caption.php:229
+msgid "No blocks selected"
+msgstr ""
+
+#: includes/class-smart-caption.php:235
+msgid "Available Blocks"
+msgstr ""
+
+#: includes/class-smart-caption.php:237
+msgid "Search blocks..."
+msgstr ""
+
+#: includes/class-smart-caption.php:274
+msgid "Excluded Blocks - Figure/Semantic Elements"
+msgstr ""
+
+#: includes/class-smart-caption.php:275
+msgid "These blocks already use figure or similar semantic elements and cannot be used inside Universal Figure to avoid nested structures."
+msgstr ""
+
+#: includes/class-smart-caption.php:300
+msgid "WordPress standard figure/figcaption support"
+msgstr ""
+
+#: includes/class-smart-caption.php:308
+msgid "Excluded Blocks - Semantically Inappropriate"
+msgstr ""
+
+#: includes/class-smart-caption.php:309
+msgid "These blocks are semantically inappropriate for figure wrapping and may cause accessibility issues or invalid HTML structure."
+msgstr ""
+
+#: includes/class-smart-caption.php:317
+msgid "Must be inside a list container (ul/ol)"
+msgstr ""
+
+#: includes/class-smart-caption.php:320
+msgid "Semantically inappropriate for figure"
+msgstr ""
+
+#: includes/class-smart-caption.php:447
+msgid "Smart Caption Settings"
+msgstr ""
+
+#: includes/class-smart-caption.php:452
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-smart-caption.php:161
+msgid "Image"
+msgstr ""
+
+#: includes/class-smart-caption.php:162
+msgid "Gallery"
+msgstr ""
+
+#: includes/class-smart-caption.php:163
+msgid "Audio"
+msgstr ""
+
+#: includes/class-smart-caption.php:164
+msgid "Video"
+msgstr ""
+
+#: includes/class-smart-caption.php:165
+msgid "Embed"
+msgstr ""
+
+#: includes/class-smart-caption.php:169
+msgid "Table"
+msgstr ""
+
+#: includes/class-smart-caption.php:177
+msgid "Paragraph"
+msgstr ""
+
+#: includes/class-smart-caption.php:178
+msgid "Heading"
+msgstr ""
+
+#: includes/class-smart-caption.php:179
+msgid "List Item"
+msgstr ""
+
+#: includes/class-smart-caption.php:180
+msgid "Group"
+msgstr ""
+
+#: includes/class-smart-caption.php:181
+msgid "Columns"
+msgstr ""
+
+#: includes/class-smart-caption.php:182
+msgid "Buttons"
+msgstr ""
+
+#: includes/class-smart-caption.php:183
+msgid "Spacer"
+msgstr ""
+
+#: includes/class-smart-caption.php:184
+msgid "Separator"
+msgstr ""
+
+#: includes/class-smart-caption.php:185
+msgid "Custom HTML"
+msgstr ""
+
+#: includes/class-smart-caption.php:210
+msgid "Block whitelist settings saved successfully."
+msgstr ""
+
+#: includes/class-smart-caption.php:275
+msgid "Note: Table blocks have their own caption option"
+msgstr ""
+
+#: includes/class-smart-caption.php:261
+msgid "HTML5 Semantic Guidance:"
+msgstr ""
+
+#: includes/class-smart-caption.php:263
+msgid "The figure element is used to group self-contained content such as photos, diagrams, code blocks, etc., that can be referenced independently from the main text. You can add blocks to the whitelist that you deem appropriate for this definition based on your own judgment."
+msgstr ""
+
+#: includes/class-smart-caption.php:264
+msgid "I created this plugin because I felt that figcaption is more appropriate than heading blocks for ul/ol and dl elements (added by other plugins)."
+msgstr ""
+
+#: assets/js/editor.js:12
+msgid "Universal Figure"
+msgstr ""
+
+#: assets/js/editor.js:35
+msgid "Figure Settings"
+msgstr ""
+
+#: assets/js/editor.js:37
+msgid "Caption"
+msgstr ""
+
+#: assets/js/editor.js:42
+msgid "Above Content"
+msgstr ""
+
+#: assets/js/editor.js:45
+msgid "Below Content"
+msgstr ""
+
+#: assets/js/editor.js:46
+msgid "Caption Position"
+msgstr ""

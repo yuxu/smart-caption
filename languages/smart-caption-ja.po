@@ -1,0 +1,185 @@
+# Japanese translations for Smart Caption
+# Copyright (C) 2024 Smart Caption
+# This file is distributed under the same license as the Smart Caption package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Caption 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com\n"
+"POT-Creation-Date: 2024-08-27 12:00+0000\n"
+"PO-Revision-Date: 2024-08-27 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: includes/class-smart-caption.php:123
+msgid "Block Whitelist Settings"
+msgstr "ブロックホワイトリスト設定"
+
+#: includes/class-smart-caption.php:130
+msgid "Allowed Blocks"
+msgstr "許可されたブロック"
+
+#: includes/class-smart-caption.php:197
+msgid "Select which blocks are allowed inside the Universal Figure block."
+msgstr "Universal Figureブロック内で許可するブロックを選択してください。"
+
+#: includes/class-smart-caption.php:212
+msgid "Currently Allowed Blocks"
+msgstr "現在許可されているブロック"
+
+#: includes/class-smart-caption.php:229
+msgid "No blocks selected"
+msgstr "ブロックが選択されていません"
+
+#: includes/class-smart-caption.php:235
+msgid "Available Blocks"
+msgstr "利用可能なブロック"
+
+#: includes/class-smart-caption.php:237
+msgid "Search blocks..."
+msgstr "ブロックを検索..."
+
+#: includes/class-smart-caption.php:274
+msgid "Excluded Blocks - Figure/Semantic Elements"
+msgstr "除外ブロック - Figure/セマンティック要素"
+
+#: includes/class-smart-caption.php:275
+msgid "These blocks already use figure or similar semantic elements and cannot be used inside Universal Figure to avoid nested structures."
+msgstr "これらのブロックはすでにfigureまたは類似のセマンティック要素を使用しており、入れ子構造を避けるためにUniversal Figure内で使用できません。"
+
+#: includes/class-smart-caption.php:300
+msgid "WordPress standard figure/figcaption support"
+msgstr "WordPress標準のfigure/figcaptionサポート"
+
+#: includes/class-smart-caption.php:308
+msgid "Excluded Blocks - Semantically Inappropriate"
+msgstr "除外ブロック - セマンティック的に不適切"
+
+#: includes/class-smart-caption.php:309
+msgid "These blocks are semantically inappropriate for figure wrapping and may cause accessibility issues or invalid HTML structure."
+msgstr "これらのブロックはfigureでのラッピングに対してセマンティック的に不適切であり、アクセシビリティの問題や無効なHTML構造を引き起こす可能性があります。"
+
+#: includes/class-smart-caption.php:317
+msgid "Must be inside a list container (ul/ol)"
+msgstr "リストコンテナ（ul/ol）の中に入れる必要があります"
+
+#: includes/class-smart-caption.php:320
+msgid "Semantically inappropriate for figure"
+msgstr "figureに対してセマンティック的に不適切"
+
+#: includes/class-smart-caption.php:447
+msgid "Smart Caption Settings"
+msgstr "Smart Caption設定"
+
+#: includes/class-smart-caption.php:452
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/class-smart-caption.php:161
+msgid "Image"
+msgstr "画像"
+
+#: includes/class-smart-caption.php:162
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: includes/class-smart-caption.php:163
+msgid "Audio"
+msgstr "オーディオ"
+
+#: includes/class-smart-caption.php:164
+msgid "Video"
+msgstr "ビデオ"
+
+#: includes/class-smart-caption.php:165
+msgid "Embed"
+msgstr "埋め込み"
+
+#: includes/class-smart-caption.php:169
+msgid "Table"
+msgstr "テーブル"
+
+#: includes/class-smart-caption.php:177
+msgid "Paragraph"
+msgstr "段落"
+
+#: includes/class-smart-caption.php:178
+msgid "Heading"
+msgstr "見出し"
+
+#: includes/class-smart-caption.php:179
+msgid "List Item"
+msgstr "リストアイテム"
+
+#: includes/class-smart-caption.php:180
+msgid "Group"
+msgstr "グループ"
+
+#: includes/class-smart-caption.php:181
+msgid "Columns"
+msgstr "カラム"
+
+#: includes/class-smart-caption.php:182
+msgid "Buttons"
+msgstr "ボタン"
+
+#: includes/class-smart-caption.php:183
+msgid "Spacer"
+msgstr "スペーサー"
+
+#: includes/class-smart-caption.php:184
+msgid "Separator"
+msgstr "区切り線"
+
+#: includes/class-smart-caption.php:185
+msgid "Custom HTML"
+msgstr "カスタムHTML"
+
+#: includes/class-smart-caption.php:210
+msgid "Block whitelist settings saved successfully."
+msgstr "ブロックホワイトリスト設定が正常に保存されました。"
+
+#: includes/class-smart-caption.php:275
+msgid "Note: Table blocks have their own caption option"
+msgstr "注: テーブルブロックには独自のキャプションオプションがあります"
+
+#: includes/class-smart-caption.php:261
+msgid "HTML5 Semantic Guidance:"
+msgstr "HTML5セマンティックガイダンス:"
+
+#: includes/class-smart-caption.php:263
+msgid "The figure element is used to group self-contained content such as photos, diagrams, code blocks, etc., that can be referenced independently from the main text. You can add blocks to the whitelist that you deem appropriate for this definition based on your own judgment."
+msgstr "figure要素は、写真や図表、コードブロックなど、自己完結していて本文から独立して参照可能なコンテンツをまとめるために使用されます。この定義にふさわしいと思われるブロックについて、あなた自身の判断でホワイトリストに入れて使用することができます。"
+
+#: includes/class-smart-caption.php:264
+msgid "I created this plugin because I felt that figcaption is more appropriate than heading blocks for ul/ol and dl elements (added by other plugins)."
+msgstr "私が、このプラグインを作成したのは、ul/olとdl要素（他のプラグインで追加）について、見出しブロックではなくfigcaptionを使いたいと感じるケースがあったからです。"
+
+#: assets/js/editor.js:12
+msgid "Universal Figure"
+msgstr "ユニバーサルフィギュア"
+
+#: assets/js/editor.js:35
+msgid "Figure Settings"
+msgstr "フィギュア設定"
+
+#: assets/js/editor.js:37
+msgid "Caption"
+msgstr "キャプション"
+
+#: assets/js/editor.js:42
+msgid "Above Content"
+msgstr "コンテンツの上"
+
+#: assets/js/editor.js:45
+msgid "Below Content"
+msgstr "コンテンツの下"
+
+#: assets/js/editor.js:46
+msgid "Caption Position"
+msgstr "キャプション位置"
